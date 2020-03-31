@@ -65,6 +65,7 @@ div.bot{
     height: 200px;
     padding-top: 100px;
     
+    
 }
 img.top-cloud{
     position: absolute;
@@ -101,7 +102,7 @@ a.btn {
     font-family: Open Sans;
     font-size: 3rem;
     font-weight: 100;
-    padding: 10px;
+    padding: 5px;
     box-shadow: 1px 1px 20px 0px #000000;
     -webkit-box-shadow: 1px 1px 20px 0px #000000;
     -moz-box-shadow: 1px 1px 20px 0px #000000;
