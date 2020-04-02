@@ -35,18 +35,21 @@ body{
     border-radius: 50%;
     height: 20%;
     position: absolute;
-    left: 45%;
+    left: 43%;
     top: 45%;
 }
+.img-profile:hover{
+    opacity: 0.5;
+}
 .name-profile{
-    position: absolute;
-    left: 40%;
-    top: 35%;
+    position: relative;
+    text-align: center;
+    top: 15%;
     font-size: 4rem;
     font-weight: bolder;
 }
 .name-profile:hover {
-    color: rgb(114, 114, 114);
+    opacity: 0.5;
 }
 #intro-body{
     background-image: linear-gradient(#ffe347,#ffe65b );
@@ -62,7 +65,20 @@ body{
 }
 
 
+@media (max-width:800px){
+    .img-profile{
+        
+        left: 30%;
+        
+    } 
+}
+.logo{
+    position: fixed;
+    width: 80px;
+    top: 3%;
+}
 
+/* BUZZ */
 .link{
 	
 	display: inline-block;
@@ -70,16 +86,10 @@ body{
 	
   text-decoration: none;
 }
-
 .link:hover{
 	text-decoration: none;
 	color: #000;
 }
-
-/*====================*/
-/* BUZZ OUT
-/*====================*/
-
 @-webkit-keyframes buzz-out-on-hover {
   10% {
     -webkit-transform: translateX(3px) rotate(2deg);
