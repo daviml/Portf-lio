@@ -69,6 +69,7 @@ body{
     width: 80px;
     top: 2%;
     
+    
 }
 
 /* INTRO */
@@ -86,13 +87,14 @@ body{
     top: 17%;
     animation-name: img-p ;
     animation-duration: 2s ;
+    box-shadow: -2px 45px 88px -15px rgba(0,0,0,0.73);
 }
 @keyframes img-p {
-  0%   { left:-100%; top:15%;}
-  25%   { left:40%; top:10%;}
-  50%  { left:0%; top:-19%;}
-  75%  { left:-40%; top:5%;}
-  100% { left:0%; top:17%;}
+  0%   {transform: rotate(0deg); left:-100%; top:15%;}
+  25%   {transform: rotate(90deg); left:40%; top:10%;}
+  50%  {transform: rotate(180deg); left:0%; top:-19%;}
+  75%  {transform: rotate(270deg); left:-40%; top:5%;}
+  100% {transform: rotate(360deg); left:0%; top:17%;}
 }
 .img-profile:hover{
     opacity: 0.5;
@@ -105,6 +107,7 @@ body{
     font-weight: bolder;
     animation-name: name ;
     animation-duration: 2s ;
+    
   }
   @keyframes name {
     0%   { left:-100%; top:15%;}
