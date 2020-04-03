@@ -1,6 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
     
     font-family: sans-serif , Arial, Helvetica ;
+}
+.icon{
+  font-size: 4rem;
+  color: rgb(71, 69, 69);
+  position: absolute;
+  left: 49%;
+  top: 94%;
+  opacity: 0.2;
+  animation: infinite;
+  animation-name: upd ;
+  animation-duration: 4s ;
+}
+@keyframes upd {
+  0%   { left:50%; top:90%;}
+  25%  { left:50%; top:94%;}
+  50%  { left:50%; top:90%;}
+  75%  { left:50%; top:94%;}
+  100% { left:50%; top:90%;}
+}
+.icon:hover{
+  opacity: 2;
+}
+.icon2{
+  font-size: 4rem;
+  color: rgb(71, 69, 69);
+  position: absolute;
+  left: 49%;
+  top: 209%;
+  opacity: 0.2;
+  animation: infinite;
+  animation-name: upd2 ;
+  animation-duration: 4s ;
+}
+@keyframes upd2 {
+  0%   { left:50%; top:205%;}
+  25%  { left:50%; top:209%;}
+  50%  { left:50%; top:205%;}
+  75%  { left:50%; top:209%;}
+  100% { left:50%; top:205%;}
+}
+.icon2:hover{
+  opacity: 2;
 }
 .strong{
     font-weight: bolder;
@@ -8,9 +53,6 @@ body{
 .a1{
     color: black;
     margin: 15px 15px;
-}
-.a1:hover{
-    color: rgb(255, 255, 255);
 }
 .a2{
     color: black;
@@ -25,7 +67,10 @@ body{
 .logo{
     position: fixed;
     width: 80px;
+    top: 2%;
+    
 }
+
 /* INTRO */
 #intro-header{
     background-image: linear-gradient(#FFE033, #ffe347);
@@ -34,10 +79,11 @@ body{
 .img-profile{
     border-radius: 50%;
     height: 20%;
-    position: absolute;
-    left: 43%;
-    top: 45%;
-    
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 17%;
 }
 .img-profile:hover{
     opacity: 0.5;
@@ -48,13 +94,14 @@ body{
     top: 15%;
     font-size: 4rem;
     font-weight: bolder;
+
 }
 .name-profile:hover {
     opacity: 0.5;
 }
 #intro-body{
     background-image: linear-gradient(#ffe347,#ffe65b );
-    height: 1080px;
+    height: 938px;
 }
 #intro-footer{
     background-color: rgb(245, 243, 243);
@@ -66,18 +113,7 @@ body{
 }
 
 
-@media (max-width:800px){
-    .img-profile{
-        
-        left: 30%;
-        
-    } 
-}
-.logo{
-    position: fixed;
-    width: 80px;
-    top: 3%;
-}
+
 
 /* BUZZ */
 .link{
