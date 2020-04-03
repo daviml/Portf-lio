@@ -17,11 +17,11 @@ body{
   animation-duration: 4s ;
 }
 @keyframes upd {
-  0%   { left:49%; top:90%;}
-  25%  { left:49%; top:94%;}
-  50%  { left:49%; top:90%;}
-  75%  { left:49%; top:94%;}
-  100% { left:49%; top:90%;}
+  0%   { left:46%; top:90%;}
+  25%  { left:46%; top:94%;}
+  50%  { left:46%; top:90%;}
+  75%  { left:46%; top:94%;}
+  100% { left:46%; top:90%;}
 }
 .icon:hover{
   opacity: 2;
