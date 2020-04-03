@@ -73,7 +73,7 @@ body{
 
 /* INTRO */
 #intro-header{
-    background-image: linear-gradient(#FFE033, #ffe347);
+    background-image: linear-gradient(#FFE033, #e7cd37,#FFE033,#ffe347);
     height: 1080px;
 }
 .img-profile{
@@ -84,6 +84,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     top: 17%;
+    animation-name: img-p ;
+    animation-duration: 2s ;
+}
+@keyframes img-p {
+  0%   { left:-100%; top:15%;}
+  25%   { left:40%; top:10%;}
+  50%  { left:0%; top:-19%;}
+  75%  { left:-40%; top:5%;}
+  100% { left:0%; top:17%;}
 }
 .img-profile:hover{
     opacity: 0.5;
@@ -94,8 +103,13 @@ body{
     top: 15%;
     font-size: 4rem;
     font-weight: bolder;
-
-}
+    animation-name: name ;
+    animation-duration: 2s ;
+  }
+  @keyframes name {
+    0%   { left:-100%; top:15%;}
+    100% { left:0%; top:15%;}
+  }
 .name-profile:hover {
     opacity: 0.5;
 }
