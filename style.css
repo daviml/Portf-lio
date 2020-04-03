@@ -17,11 +17,11 @@ body{
   animation-duration: 4s ;
 }
 @keyframes upd {
-  0%   { left:46%; top:90%;}
-  25%  { left:46%; top:94%;}
-  50%  { left:46%; top:90%;}
-  75%  { left:46%; top:94%;}
-  100% { left:46%; top:90%;}
+  0%   { left:47%; top:90%;}
+  25%  { left:47%; top:94%;}
+  50%  { left:47%; top:90%;}
+  75%  { left:47%; top:94%;}
+  100% { left:47%; top:90%;}
 }
 .icon:hover{
   opacity: 2;
@@ -38,11 +38,11 @@ body{
   animation-duration: 4s ;
 }
 @keyframes upd2 {
-  0%   { left:50%; top:205%;}
-  25%  { left:50%; top:209%;}
-  50%  { left:50%; top:205%;}
-  75%  { left:50%; top:209%;}
-  100% { left:50%; top:205%;}
+  0%   { left:50%; top:218%;}
+  25%  { left:50%; top:220%;}
+  50%  { left:50%; top:218%;}
+  75%  { left:50%; top:220%;}
+  100% { left:50%; top:218%;}
 }
 .icon2:hover{
   opacity: 2;
@@ -62,7 +62,8 @@ body{
 /* NAVBAR */
 .topnav-centered{
     position: sticky;
-    left: 41%;
+    left: 35%;
+    right: 35%;
 }
 .logo{
     position: fixed;
@@ -74,7 +75,7 @@ body{
 
 /* INTRO */
 #intro-header{
-    background-image: linear-gradient(#FFE033, #e7cd37,#FFE033,#ffe347);
+    background-image: linear-gradient(rgb(255, 233, 109), #f3d945,rgb(248, 220, 61),#ffe347);
     height: 1080px;
 }
 .img-profile{
