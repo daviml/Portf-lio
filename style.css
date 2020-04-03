@@ -18,36 +18,16 @@ body{
   animation-duration: 4s ;
 }
 @keyframes upd {
-  0%   { left:47%; top:90%;}
-  25%  { left:47%; top:94%;}
-  50%  { left:47%; top:90%;}
-  75%  { left:47%; top:94%;}
-  100% { left:47%; top:90%;}
+  0%   { left:48%; top:90%;}
+  25%  { left:48%; top:94%;}
+  50%  { left:48%; top:90%;}
+  75%  { left:48%; top:94%;}
+  100% { left:48%; top:90%;}
 }
 .icon:hover{
   opacity: 2;
 }
-.icon2{
-  font-size: 4rem;
-  color: rgb(71, 69, 69);
-  position: absolute;
-  left: 49%;
-  top: 209%;
-  opacity: 0.2;
-  animation: infinite;
-  animation-name: upd2 ;
-  animation-duration: 4s ;
-}
-@keyframes upd2 {
-  0%   { left:50%; top:218%;}
-  25%  { left:50%; top:220%;}
-  50%  { left:50%; top:218%;}
-  75%  { left:50%; top:220%;}
-  100% { left:50%; top:218%;}
-}
-.icon2:hover{
-  opacity: 2;
-}
+
 .strong{
     font-weight: bolder;
 }
@@ -63,15 +43,13 @@ body{
 /* NAVBAR */
 .topnav-centered{
     position: sticky;
-    left: 35%;
+    left: 39%;
     right: 35%;
 }
 .logo{
     position: fixed;
     width: 80px;
     top: 2%;
-    
-    
 }
 
 /* INTRO */
@@ -94,13 +72,14 @@ body{
 }
 @keyframes img-p {
   0%   {transform: rotate(0deg); left:-100%; top:15%;}
-  25%   {transform: rotate(90deg); left:40%; top:10%;}
+  25%  {transform: rotate(90deg); left:40%; top:10%;}
   50%  {transform: rotate(180deg); left:0%; top:-19%;}
   75%  {transform: rotate(270deg); left:-40%; top:5%;}
   100% {transform: rotate(360deg); left:0%; top:17%;}
 }
 .img-profile:hover{
     opacity: 0.5;
+    transform: scale(1.1,1.1);
 }
 .name-profile{
     position: relative;
@@ -118,6 +97,7 @@ body{
   }
 .name-profile:hover {
     opacity: 0.5;
+    transform: scale(1.1,1.1);
 }
 #intro-body{
     background-image: linear-gradient(#ffe347,#ffe65b );
@@ -132,7 +112,36 @@ body{
     
 }
 
-
+@media (max-width:1028px){
+  .topnav-centered{
+    position: sticky;
+    left: 35%;
+    right: 35%;
+}
+.logo{
+    position: fixed;
+    width: 80px;
+    top: 2%;
+}
+  .icon{
+    font-size: 4rem;
+    color: rgb(71, 69, 69);
+    position: absolute;
+    left: 49%;
+    top: 94%;
+    opacity: 0.2;
+    animation: infinite;
+    animation-name: upd ;
+    animation-duration: 4s ;
+  }
+  @keyframes upd {
+    0%   { left:47%; top:90%;}
+    25%  { left:47%; top:94%;}
+    50%  { left:47%; top:90%;}
+    75%  { left:47%; top:94%;}
+    100% { left:47%; top:90%;}
+  }
+}
 
 
 /* BUZZ */
@@ -145,7 +154,8 @@ body{
 }
 .link:hover{
 	text-decoration: none;
-	color: #000;
+  color: #000;
+  transform: scale(1.3,1.3);
 }
 @-webkit-keyframes buzz-out-on-hover {
   10% {
