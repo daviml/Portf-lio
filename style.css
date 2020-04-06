@@ -112,17 +112,17 @@ body{
     
 }
 
-@media (max-width:1028px){
+@media (min-width:1028px){
   .topnav-centered{
     position: sticky;
-    left: 35%;
+    left: 40%;
     right: 35%;
-}
-.logo{
+  }
+  .logo{
     position: fixed;
     width: 80px;
     top: 2%;
-}
+  }
   .icon{
     font-size: 4rem;
     color: rgb(71, 69, 69);
@@ -133,7 +133,38 @@ body{
     animation: infinite;
     animation-name: upd ;
     animation-duration: 4s ;
+    }
+  @keyframes upd {
+    0%   { left:47%; top:90%;}
+    25%  { left:47%; top:94%;}
+    50%  { left:47%; top:90%;}
+    75%  { left:47%; top:94%;}
+    100% { left:47%; top:90%;}
   }
+}
+
+@media (max-width:1028px){
+  .topnav-centered{
+    position: sticky;
+    left: 35%;
+    right: 35%;
+  }
+  .logo{
+    position: fixed;
+    width: 80px;
+    top: 2%;
+  }
+  .icon{
+    font-size: 4rem;
+    color: rgb(71, 69, 69);
+    position: absolute;
+    left: 49%;
+    top: 94%;
+    opacity: 0.2;
+    animation: infinite;
+    animation-name: upd ;
+    animation-duration: 4s ;
+    }
   @keyframes upd {
     0%   { left:47%; top:90%;}
     25%  { left:47%; top:94%;}
