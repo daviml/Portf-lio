@@ -41,11 +41,7 @@ body{
 }
 
 /* NAVBAR */
-.topnav-centered{
-    position: sticky;
-    left: 39%;
-    right: 35%;
-}
+
 .logo{
     position: fixed;
     width: 80px;
@@ -113,11 +109,7 @@ body{
 }
 
 @media (min-width:1028px){
-  .topnav-centered{
-    position: sticky;
-    left: 40%;
-    right: 35%;
-  }
+
   .logo{
     position: fixed;
     width: 80px;
@@ -144,11 +136,7 @@ body{
 }
 
 @media (max-width:1028px){
-  .topnav-centered{
-    position: sticky;
-    left: 35%;
-    right: 35%;
-  }
+
   .logo{
     position: fixed;
     width: 80px;
