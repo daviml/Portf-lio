@@ -5,6 +5,17 @@ body{
     
     font-family: sans-serif , Arial, Helvetica ;
 }
+#conWin {
+  top: 5%;
+  left: 5%;
+  position: absolute;
+  width: 90%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  
+  display: none;
+}
 
 .icon{
   font-size: 4rem;
